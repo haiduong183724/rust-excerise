@@ -1,8 +1,9 @@
-mod excerise1;
-mod excerise2;
-mod excerise3;
-mod excerise4;
+mod exercise1;
+mod exercise2;
+mod exercise3;
+mod exercise4;
+mod exercise5;
 
 fn main() {
-    excerise4::run();
+    exercise5::run();
 }
