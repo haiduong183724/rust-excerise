@@ -1,9 +1,8 @@
 pub use snafu::{prelude::*, Whatever, ErrorCompat};
-#[derive(Debug, Snafu(annotations))]
+#[derive(Debug, Snafu)]
 pub enum Errors{
     #[snafu(display("Input ID is invalid"))]
     InvalidIdError,
-    #[snafu(whatever, display("Could not connect to database {message}"))]
     CouldNotConnectDBError{
         message:String,
     },

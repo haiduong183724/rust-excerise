@@ -2,7 +2,6 @@ use std::io::prelude::BufRead;
 use std::collections::HashMap;
 use snafu::{prelude::*, ErrorCompat};
 mod errors;
-mod lesson1;
 
 // #[derive(Debug)]
 // struct WordCounter(HashMap<String, u64>);
